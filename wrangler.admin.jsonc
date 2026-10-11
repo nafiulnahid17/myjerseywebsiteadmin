@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "myjerseywebsiteadmin",
+  "main": "./artifacts/my-jersey-admin/worker.mjs",
+  "compatibility_date": "2026-10-11",
+  "workers_dev": true,
+  "assets": {
+    "directory": "./artifacts/my-jersey-admin/dist/public",
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application"
+  }
+}
