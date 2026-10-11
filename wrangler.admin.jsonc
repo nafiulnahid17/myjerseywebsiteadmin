@@ -4,6 +4,7 @@
   "main": "./artifacts/my-jersey-admin/worker.mjs",
   "compatibility_date": "2026-10-11",
   "workers_dev": true,
+  "preview_urls": false,
   "assets": {
     "directory": "./artifacts/my-jersey-admin/dist/public",
     "binding": "ASSETS",
